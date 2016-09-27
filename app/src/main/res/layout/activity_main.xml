@@ -96,7 +96,8 @@
             android:layout_height="wrap_content"
             android:text="New Button"
             android:id="@+id/date"
-            android:layout_weight="5" />
+            android:layout_weight="5"
+            android:onClick="onDateButtonTapped" />
 
         <Button
             android:layout_width="0dp"
@@ -114,7 +115,8 @@
         android:id="@+id/save"
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onSaveButtonTapped" />
 
     <Button
         android:layout_width="wrap_content"
